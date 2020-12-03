@@ -1,8 +1,7 @@
 require 'spec_helper'
-require 'soma_mutiplos'
 
 describe 'Soma Multiplos' do
-  subject { Multiplo.new }
+  subject { SomaMultiplo.new }
 
   context 'retorna 23 quando o limite é 10 e os números sao 3 e 5'
   it 'retorna soma igual a 23' do
