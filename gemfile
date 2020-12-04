@@ -4,3 +4,6 @@ gem 'activesupport'
 gem 'rake'
 gem 'rspec'
 gem 'byebug'
+
+#testando esta gem para executar é bundle exec mutant run --use rspec
+gem 'mutant-rspec'
