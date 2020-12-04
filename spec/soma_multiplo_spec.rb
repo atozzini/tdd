@@ -14,4 +14,10 @@ describe 'Soma Multiplos' do
       expect(subject.soma_multiplos(2 ,6, 10)).not_to eq 23
     end
   end
+
+  context 'retorna 233168 quando o limite é 1000 e os números 3 e 5' do
+    it 'retorna a soma igual a 233168' do
+      expect(subject.soma_multiplos(3, 5, 1000)).to eq 233168
+    end
+  end
 end
