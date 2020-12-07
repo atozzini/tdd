@@ -71,7 +71,7 @@ class FatorPrimo
 
   def maior_fator_primo(valor)
     return 'Deve ser informado um valor para o cálculo' unless valor.present?
-    valor_primo = 0
+
     max_valor_primo = 0
 
     while valor != 1 do
@@ -79,7 +79,6 @@ class FatorPrimo
         if valor % primo == 0
           max_valor_primo = primo
           valor = valor / primo
-          valor_primo = primo
           break
         end
       end
