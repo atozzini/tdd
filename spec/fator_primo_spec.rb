@@ -9,6 +9,10 @@ describe 'fator primo' do
         it 'retorna o maio número primo' do
           expect(subject.maior_fator_primo(13195)).to eq 29
         end
+
+        it 'retorna o maio número primo de 600_851_475_143' do
+          expect(subject.maior_fator_primo(600_851_475_143)).to eq 6857
+        end
       end
 
       context 'quando não foi informado um valor' do
